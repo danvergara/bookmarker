@@ -27,3 +27,7 @@ Layout/EmptyLinesAroundBlockBody:
 Style/FrozenStringLiteralComment:
   Exclude:
     - 'db/schema.rb'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
