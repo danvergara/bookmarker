@@ -13,7 +13,7 @@ RSpec.describe 'Api::V1::Users', type: :request do
       expected_body = { 'email' => 'user@duetcode.io' }
 
       expect(response).to have_http_status(:created)
-      expect(load_body(response)).to include(expected_body)
+      expect(load_body(response)['user']).to include(expected_body)
     end
 
     it 'returns unprocessable entity with errors' do
