@@ -22,6 +22,9 @@ gem 'puma', '~> 4.1'
 # Flexible authentication solution for Rails based on Warden
 gem 'devise', '~> 4.7'
 
+# Generate JSON in an object-oriented and convention-driven manner
+gem 'active_model_serializers', '~> 0.8.4'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
