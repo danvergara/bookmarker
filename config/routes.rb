@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   end
 
   resources :apidocs, only: [:index]
+  resources :swagger, only: [:index]
 end

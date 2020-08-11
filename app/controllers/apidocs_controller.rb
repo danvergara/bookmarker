@@ -27,6 +27,9 @@ class ApidocsController < ActionController::Base
   SWAGGERED_CLASSES = [
     self,
     Swagger::Controllers::UsersController,
+    Swagger::Models::Error,
+    Swagger::Models::Meta,
+    Swagger::Models::User,
     Swagger::Models::UserInput
   ].freeze
 
